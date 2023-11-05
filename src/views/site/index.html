@@ -1,0 +1,137 @@
+<div class="rectangle" id="light_slide">
+    <h2 class="line_1">Light Status</h2>
+
+    <label class="switch" id="switch_1">
+        <input type="checkbox" id="checkbox_1" status="{{led.status}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <h2 class="line_2">Automatical Light</h2>
+
+    <label class="switch" id="switch_2">
+        <input type="checkbox" id="checkbox_2" status="{{auto.light}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <div class="setting"></div>
+</div>
+
+<div class="rectangle" id="fan_slide">
+    <h2 class="line_1">Fan Status</h2>
+
+    <label class="switch" id="switch_3">
+        <input type="checkbox" id="checkbox_3" status="{{fan.status}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <h2 class="line_2">Automatical Fan</h2>
+
+    <label class="switch" id="switch_4">
+        <input type="checkbox" id="checkbox_4" status="{{auto.fan}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <div class="setting"></div>
+</div>
+
+<div class="rectangle" id="breakin_slide">
+    <h2 class="line_1">Door Alert</h2>
+
+    <label class="switch" id="switch_5">
+        <input type="checkbox" id="checkbox_5" status="{{auto.door}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <h2 class="line_2">Room Alert</h2>
+
+    <label class="switch" id="switch_6">
+        <input type="checkbox" id="checkbox_6" status="{{auto.room}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <div class="setting">
+        <h2 class="line_3">Speaker</h2>
+
+        <label class="switch" id="switch_11">
+            <input
+                type="checkbox"
+                id="checkbox_11"
+                status="{{breakin.speaker}}"
+            />
+            <span class="slider round"></span>
+        </label>
+
+        <h2 class="line_4">Message</h2>
+
+        <label class="switch" id="switch_12">
+            <input
+                type="checkbox"
+                id="checkbox_12"
+                status="{{breakin.message}}"
+            />
+            <span class="slider round"></span>
+        </label>
+
+        <h2 class="line_5">Blinking</h2>
+
+        <label class="switch" id="switch_13">
+            <input
+                type="checkbox"
+                id="checkbox_13"
+                status="{{breakin.blinking}}"
+            />
+            <span class="slider round"></span>
+        </label>
+    </div>
+</div>
+
+<div class="rectangle" id="explosion_slide">
+    <h2 class="line_1">Explosion Alert</h2>
+
+    <label class="switch" id="switch_7">
+        <input type="checkbox" id="checkbox_7" status="{{auto.explosion}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <h2 class="line_2">Power Status</h2>
+
+    <label class="switch" id="switch_8">
+        <input type="checkbox" id="checkbox_8" status="{{relay.status}}" />
+        <span class="slider round"></span>
+    </label>
+
+    <div class="setting">
+        <h2 class="line_3">Speaker</h2>
+
+        <label class="switch" id="switch_14">
+            <input
+                type="checkbox"
+                id="checkbox_14"
+                status="{{explosion.speaker}}"
+            />
+            <span class="slider round"></span>
+        </label>
+
+        <h2 class="line_4">Message</h2>
+
+        <label class="switch" id="switch_15">
+            <input
+                type="checkbox"
+                id="checkbox_15"
+                status="{{explosion.message}}"
+            />
+            <span class="slider round"></span>
+        </label>
+
+        <h2 class="line_5">Power Down</h2>
+
+        <label class="switch" id="switch_16">
+            <input
+                type="checkbox"
+                id="checkbox_16"
+                status="{{explosion.powerdown}}"
+            />
+            <span class="slider round"></span>
+        </label>
+    </div>
+</div>

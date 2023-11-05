@@ -1,0 +1,24 @@
+{
+    "name": "smart_house",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "prettier": "prettier --single-quote --trailing-comma all --tab-width 4 --write src",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --inspect src/server.js"
+    },
+    "author": "longphi",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.4",
+        "mongoose": "^6.0.14",
+        "mqtt": "^4.2.8",
+        "socket.io": "^4.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "prettier": "^2.5.0"
+    }
+}

@@ -1,0 +1,47 @@
+<div id="greeting">
+    <h1></h1>
+</div>
+
+<div class="oval" id="time">
+    <h3 time=""></h3>
+    <h3 date=""></h3>
+</div>
+
+<div class="oval" id="temperature">
+    <img src="./img/temperature.png" />
+    <h3 temp="{{temp.data}}">°C</h3>
+</div>
+
+<div class="oval" id="alert">
+    <img src="./img/alert.png" />
+    <h3>Alert</h3>
+
+    <div class="dropdown">
+        {{#each messages}}
+        <div class="notify_item">
+            <div class="notify_img">
+                <img src="{{this.img}}" />
+            </div>
+
+            <div class="notify_message">
+                <p>{{this.content}}</p>
+                <span
+                    class="notify_time"
+                    ho="{{this.ho}}"
+                    mi="{{this.mi}}"
+                    se="{{this.se}}"
+                    da="{{this.da}}"
+                    mo="{{this.mo}}"
+                    ye="{{this.ye}}"
+                >
+                </span>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+<div class="oval" id="account">
+    <img src="./img/account.png" />
+    <h3>Account</h3>
+</div>
